@@ -1,4 +1,4 @@
-import { getTrendingBooks, searchBooks } from "../lab3/fetchBooks.js";
+import { getTrendingBooks, searchBooks } from "../lab3/fetchbooks.js"
 import { addFavorite, listFavorites } from "../lab2/favorites.js";
 
 function getGrid() {
