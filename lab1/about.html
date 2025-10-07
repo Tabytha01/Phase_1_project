@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Book Explorer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-slate-900 text-white shadow-md border-b-2 border-white-200">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-semibold">Book Explorer</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="../lab1/index.html" class="hover:text-slate-400 transition">Home</a>
+        <a href="../lab2/favorites.html" class="hover:text-slate-400 transition">Favorites</a>
+        <a href="about.html" class="hover:text-slate-400 transition">About</a>
+      </nav>
+      <button class="md:hidden bg-gray-500 px-3 py-2 rounded">Menu</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section
+    class="relative bg-cover bg-center text-white py-20 px-6 flex flex-col items-center justify-center text-center"
+    style="background-image: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1200');"
+  >
+    <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+    <div class="relative z-10 max-w-2xl mx-auto">
+      <h2 class="text-4xl md:text-5xl font-bold leading-snug">
+        Discover, Explore,<br/>and Organize Your Reading
+      </h2>
+      <p class="text-gray-200 mt-4 text-lg">
+        Your personal guide to the world of books
+      </p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="bg-slate-50 py-12 px-6">
+    <div class="max-w-5xl mx-auto">
+      
+      <!-- About Section -->
+      <section class="mb-12">
+        <h2 class="text-3xl font-bold text-slate-900 mb-6">About Book Explorer</h2>
+        <div class="bg-white rounded-2xl shadow-md p-8">
+          <p class="text-gray-700 leading-relaxed text-lg mb-4">
+            Welcome to <span class="font-semibold text-slate-900">Book Explorer</span> – your ultimate companion for discovering and organizing books. 
+            Whether you're searching for your next great read or building a collection of favorites, 
+            we make it easy and enjoyable.
+          </p>
+          <p class="text-gray-700 leading-relaxed text-lg">
+            Powered by the <span class="font-semibold">Open Library API</span>, we give you access to millions of books 
+            from around the world, all at your fingertips.
+          </p>
+        </div>
+      </section>
+
+      <!-- How to Use Section -->
+      <section class="mb-12">
+        <h2 class="text-3xl font-bold text-slate-900 mb-6">How to Use Book Explorer</h2>
+        
+        <div class="grid md:grid-cols-2 gap-6">
+          
+          <!-- Step 1 -->
+          <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+            <div class="flex items-center mb-4">
+              <div class="bg-slate-900 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mr-4">
+                1
+              </div>
+              <h3 class="text-xl font-semibold text-slate-900">Search for Books</h3>
+            </div>
+            <p class="text-gray-700 leading-relaxed">
+              Use the search bar on the homepage to find books by title, author, or subject. 
+              Type your query and hit the search button to explore millions of books.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+            <div class="flex items-center mb-4">
+              <div class="bg-slate-900 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mr-4">
+                2
+              </div>
+              <h3 class="text-xl font-semibold text-slate-900">Browse Categories</h3>
+            </div>
+            <p class="text-gray-700 leading-relaxed">
+              Not sure what to read? Click on any category button (Fiction, Science, History, Business) 
+              to discover curated book collections in different genres.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+            <div class="flex items-center mb-4">
+              <div class="bg-slate-900 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mr-4">
+                3
+              </div>
+              <h3 class="text-xl font-semibold text-slate-900">Add to Favorites</h3>
+            </div>
+            <p class="text-gray-700 leading-relaxed">
+              Found a book you love? Click the heart button (❤️) on any book card to add it to your favorites. 
+              Your favorites are saved even after you close the browser!
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
+            <div class="flex items-center mb-4">
+              <div class="bg-slate-900 text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mr-4">
+                4
+              </div>
+              <h3 class="text-xl font-semibold text-slate-900">Manage Your Collection</h3>
+            </div>
+            <p class="text-gray-700 leading-relaxed">
+              Visit the Favorites page to see all your saved books in one place. 
+              Remove books by clicking the heart button again – it's that simple!
+            </p>
+          </div>
+
+        </div>
+    </section>
+
+      <!-- Tips Section -->
+      <section class="mb-12 justify-center ">
+        <h2 class="text-3xl font-bold text-slate-900 mb-6">Pro Tips</h2>
+        
+        <div class="grid md:grid-cols-3 gap-6 ">
+          <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl shadow-md p-6">
+            <h3 class="text-lg font-semibold text-slate-900 mb-3">💡 Search Tip</h3>
+            <p class="text-gray-700">
+              Try searching for specific topics like "Python programming" or "World War II" for targeted results.
+            </p>
+          </div>
+          
+          <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl shadow-md p-6">
+            <h3 class="text-lg font-semibold text-slate-900 mb-3">💡 Organization Tip</h3>
+            <p class="text-gray-700">
+              Use favorites to create your personal reading list or track books you want to borrow from the library.
+            </p>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="text-center">
+        <div class="bg-gradient-to-r from-slate-800 to-slate-900 text-white rounded-2xl shadow-xl p-10">
+          <h2 class="text-3xl font-bold mb-4">Ready to Start Exploring?</h2>
+          <p class="text-gray-200 text-lg mb-6">
+            Dive into millions of books and build your perfect reading collection today!
+          </p>
+          <a href="../lab1/index.html" class="inline-block bg-white text-slate-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition shadow-lg">
+            Start Exploring Books
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-gray-300 text-center py-6 mt-10">
+    <p>© 2025 Book Explorer. All rights reserved.</p>
+    <p class="text-sm text-gray-400 mt-2">Powered by Open Library API</p>
+  </footer>
+
+</body>
+</html>
